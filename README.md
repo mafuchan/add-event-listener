@@ -10,4 +10,7 @@ mango.addEventListener('click', function (event) {
   mango.style.animationIterationCount = 'infinite'
   mango.style.animationTimingFunction = 'linear'
 })
+mango.addEventListener('click', event => {
+  console.log ("MAAANNNNNNNGOOOOOOOO")
+})
 ```
